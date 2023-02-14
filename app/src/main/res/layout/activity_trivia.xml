@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriviaActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/backtrivia"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#000"
+            android:layout_y="26dp"
+            android:gravity="left"
+            android:text="score: "
+            android:fontFamily="@font/faster_one"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/scoreTrivia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="25dp"
+            android:layout_x="74dp"
+            android:layout_y="26dp"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_x="147dp"
+        android:layout_y="78dp"
+        android:text="Question 1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_x="103dp"
+        android:layout_y="149dp"
+        android:text="Question"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:background="@drawable/rounded_btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="20dp"
+        android:layout_x="25dp"
+        android:layout_y="234dp"
+        android:onClick="checkAnswer"
+        android:text="answer1" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:background="@drawable/rounded_btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="6dp"
+        android:layout_x="25dp"
+        android:layout_y="317dp"
+        android:onClick="checkAnswer"
+        android:text="answer2" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:background="@drawable/rounded_btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="6dp"
+        android:layout_x="25dp"
+        android:layout_y="400dp"
+        android:onClick="checkAnswer"
+        android:text="answer3" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:background="@drawable/rounded_btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="6dp"
+        android:layout_x="25dp"
+        android:layout_y="483dp"
+        android:onClick="checkAnswer"
+        android:text="answer4" />
+
+    <TextView
+        android:id="@+id/spam"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/helpFifty"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_x="237dp"
+        android:layout_y="646dp"
+        android:background="@drawable/rounded_btn"
+        android:gravity="center"
+        android:text="50/50" />
+
+
+</LinearLayout>

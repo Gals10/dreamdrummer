@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="3dp"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="229dp"
+        android:layout_y="1dp"
+        android:text="ענית נכון על"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:layout_gravity="start"
+        android:layout_x="8dp"
+        android:layout_y="535dp"
+        android:background="@drawable/backk"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_x="222dp"
+        android:layout_y="36dp"
+        android:gravity="right"
+        android:text="מצאו את התופים"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-5dp" />
+
+    <TextView
+        android:id="@+id/generated"
+        android:layout_width="211dp"
+        android:layout_height="29dp"
+        android:layout_x="10dp"
+        android:layout_y="43dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#070707"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="525dp"
+        android:text="תופים שנשארו:"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_x="224dp"
+        android:layout_y="526dp"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="424dp"
+        android:layout_gravity="center"
+        android:layout_x="-1dp"
+        android:layout_y="76dp"
+        android:background="@drawable/drumquizz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnbas"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="174dp"
+        android:layout_y="327dp"
+        android:background="#20AE3F"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btncrash"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="62dp"
+        android:layout_height="30dp"
+        android:layout_x="58dp"
+        android:layout_y="78dp"
+        android:background="#20AE3F"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnraid"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        android:layout_x="293dp"
+        android:layout_y="133dp"
+        android:background="#20AE3F"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btntamtam"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_x="111dp"
+        android:layout_y="131dp"
+        android:background="#20AE3F"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnhayhet"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_x="20dp"
+        android:layout_y="175dp"
+        android:background="#20AE3F"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsnare"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_x="80dp"
+        android:layout_y="222dp"
+        android:background="#20AE3F"
+        android:text="?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>

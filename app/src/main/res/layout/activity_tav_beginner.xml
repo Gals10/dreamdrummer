@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    tools:context=".TavBeginner">
+    <TextView
+        android:id="@+id/tvlessons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9EE6DE"
+        android:gravity="center"
+        android:text="מהו משמעותו של כל תו"
+        android:textColor="#070707"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btvtav"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:background="@drawable/learntav" />
+
+
+    <TextView
+        android:id="@+id/tvteach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9EE6DE"
+        android:gravity="center"
+        android:text="להמשך הלימוד"
+        android:textColor="#070707"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="69dp"
+            android:layout_height="53dp"
+            android:background="@drawable/next" />
+
+    </LinearLayout>
+    <Button
+        android:layout_gravity="start"
+        android:id="@+id/btnback"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:background="@drawable/backk"
+        android:gravity="center" />
+
+
+</LinearLayout>

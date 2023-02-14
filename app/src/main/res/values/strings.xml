@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name"> dreamdrummer </string>
+    <string-array name="lessons">
+        <item>Lesson 1</item>
+        <item>Lesson 2</item>
+        <item>Lesson 3</item>
+
+    </string-array>
+    <string-array name="description">
+        <item>Learn less#1</item>
+        <item>Learn less#2</item>
+        <item>Learn less#3</item>
+
+    </string-array>
+
+    <string-array name="songs">
+        <item>Jhon Lenon-Imagine</item>
+        <item>Maroon5-Misery</item>
+        <item>Survivor-Eye Of Tiger</item>
+        <item>Passenger-Let Her Go</item>
+        <item>Westlife-My Love</item>
+        <item>Charlie Puth-Done For Me</item>
+        <item>Coldplay-Clocks</item>
+        <item>Green Day-September Ends</item>
+        <item>Havana-Camila Cabello</item>
+    </string-array>
+    <string-array name="Description">
+        <item>Imagine | length-3:54</item>
+        <item>Misery | length-3:34</item>
+        <item>Eye Of The Tiger | length-4:05</item>
+        <item>Let Her Go | length-4:15 </item>
+        <item>My Love | length-4:13</item>
+        <item>Done For Me | length-2:57</item>
+        <item>Clocks | length-4:15</item>
+        <item>September Ends| length-7:13</item>
+        <item>song Havana | length-3:38</item>
+    </string-array>
+    <string-array name="songsadv">
+        <item>Muse - Uprising</item>
+        <item>Wiz Khalifa - See u Again</item>
+        <item>The Script - Hall of Fame</item>
+        <item>Marshmello - FRIENDS</item>
+        <item>OneRepublic - Counting Stars</item>
+        <item>Bruno Mars - 24K Magic</item>
+        <item>Bruno Mars - What I Like</item>
+        <item>Maroon 5 - Animals </item>
+        <item>Imagine Dragons - Believer</item>
+    </string-array>
+    <string-array name="Descriptionadv">
+        <item>Uprising | length-4:12</item>
+        <item>See u Again | length-3:58</item>
+        <item>Hall of Fame | length-3:53</item>
+        <item>FRIENDS | length-3:52 </item>
+        <item>Counting Stars | length-4:44</item>
+        <item>24K Magic | length-3:47</item>
+        <item>What i like | length-3:30</item>
+        <item>Animals | length-4:40</item>
+        <item>Believer | length-3:38</item>
+    </string-array>
+
+</resources>

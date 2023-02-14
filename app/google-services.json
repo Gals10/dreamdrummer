@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514404891790",
+    "project_id": "dreamdrummer-82333",
+    "storage_bucket": "dreamdrummer-82333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514404891790:android:06c8c3fe266e958f08dddf",
+        "android_client_info": {
+          "package_name": "com.example.dreamdrummer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514404891790-lc8m7c1o33099m971cdci4v7nc2psi20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3COAxb9cbyBrXYw0IhVG8DNN3yOg8B34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514404891790-lc8m7c1o33099m971cdci4v7nc2psi20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

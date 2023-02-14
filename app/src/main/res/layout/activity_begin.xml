@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Begin"
+    android:background="#50239F">
+
+
+    <TextView
+        android:id="@+id/tvlessons"
+        android:layout_width="426dp"
+        android:layout_height="35dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:text="שיעורים למתחילים"
+        android:textColor="#070707"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/tvtav"
+        android:layout_width="412dp"
+        android:layout_height="35dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:text="לימוד תווים"
+        android:textColor="#070707"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlessons"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/tvsongs"
+        android:layout_width="414dp"
+        android:layout_height="36dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:text="שירים למתחילים"
+        android:textColor="#070707"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntav"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/tvspam"
+        android:layout_width="414dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="11dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:textColor="#070707"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsongs"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:background="@drawable/backk"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="53dp"
+        android:layout_height="46dp"
+        android:background="@drawable/homebtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toEndOf="@+id/btnback"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+    <Button
+        android:id="@+id/btnlessons"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/mavobegin"
+        app:layout_constraintBottom_toTopOf="@+id/btnhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/btntav"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tavbeg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtav"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/btnsongs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/songsbegon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvsongs"
+        app:layout_constraintVertical_bias="0.082" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

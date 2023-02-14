@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtrivia"
+    tools:context=".PracticeArena">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:layout_gravity="start"
+        android:layout_x="13dp"
+        android:layout_y="535dp"
+        android:background="@drawable/backk"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="מערכת תופים- לחץ ללמוד על..."
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btnbas_Wu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="259dp"
+        android:layout_y="280dp"
+        android:background="@drawable/rounded_btn"
+        android:text="באס" />
+
+    <Button
+        android:id="@+id/btnchooose"
+        android:layout_width="123dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="125dp"
+        android:layout_y="66dp"
+        android:background="@drawable/choose" />
+
+    <Button
+        android:id="@+id/btnchooose2"
+        android:layout_width="123dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="125dp"
+        android:layout_y="192dp"
+        android:background="@drawable/choose" />
+
+    <Button
+        android:id="@+id/btnsnare_wu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="260dp"
+        android:layout_y="240dp"
+        android:background="@drawable/rounded_btn"
+        android:text="סנייר" />
+
+    <Button
+        android:id="@+id/btntam_wu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="260dp"
+        android:layout_y="200dp"
+        android:background="@drawable/rounded_btn"
+        android:text="טמטם" />
+
+    <Button
+        android:id="@+id/btncrash_wu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="259dp"
+        android:layout_y="154dp"
+        android:background="@drawable/rounded_btn"
+        android:text="קראש" />
+
+    <Button
+        android:id="@+id/btnraid_wu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="259dp"
+        android:layout_y="114dp"
+        android:background="@drawable/rounded_btn"
+        android:text="רייד" />
+
+    <Button
+        android:id="@+id/btnhayhetwu"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="259dp"
+        android:layout_y="73dp"
+        android:background="@drawable/rounded_btn"
+        android:text="הייהט" />
+
+    <ImageView
+        android:id="@+id/drumWarm"
+        android:layout_width="143dp"
+        android:layout_height="122dp"
+        android:layout_x="135dp"
+        android:layout_y="324dp" />
+
+    <TextView
+        android:id="@+id/shimoshWarm"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="495dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/soundWarm"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="528dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/drumnameWarm"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="463dp"
+        android:text=""
+        android:textColor="#000000" />
+
+
+</AbsoluteLayout >
